@@ -1,8 +1,8 @@
 /// <reference types="react" />
-import { AnimationDirection, AnimationSegment, AnimationItem, RendererType, AnimationConfigWithData, AnimationEventName } from 'lottie-web';
-export { default as LottiePlayer } from 'lottie-web';
+export { default as LottiePlayer } from 'lottie-web/build/player/lottie_light';
 import * as react from 'react';
 import react__default, { RefObject, MutableRefObject, AnimationEventHandler, ReactElement, CSSProperties } from 'react';
+import { AnimationDirection, AnimationSegment, AnimationItem, RendererType, AnimationConfigWithData, AnimationEventName } from 'lottie-web';
 
 type LottieRefCurrentProps = {
     play: () => void;
